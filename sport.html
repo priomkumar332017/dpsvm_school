@@ -34,10 +34,7 @@
       <link href="css/noticeboard.css" rel="stylesheet">
       <link rel="stylesheet" href="css/bgslide.css" />
     
-      <link href="css/staff.css" rel="stylesheet">
-      <link href="css/font-awesome.min.css" rel="stylesheet">  
-      <link href="css/responsive.css" rel="stylesheet">
-
+      
       <!--Favicon-->
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
       <link rel="icon" href="images/logo/svm_logo.png" type="image/x-icon">
@@ -63,61 +60,54 @@
 <body>
                   
                   <div w3-include-html="header.html"></div>
-                 <!-- start -->
+<!-- start  -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">Games and Sports</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <!-- <p class="text-lighten">1.Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p> -->
+      </div>
+    </div>
+  </div>
+</section>
 
-                 <div class="tcontainer" style="margin-bottom: 25px;" >
-
-  
-  
-                  <div class="table-responsive">
-                    <iframe src="stafftable.html" title="table_iframe" style="width: 100%; height: 100%;"></iframe>
-                  </div>
-                
-                
-                
-                </div>
-                 <!-- end -->
+<section >
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        
+        <!-- <h2>Daya Prakash Saraswati Vidya Mandir, Gaya</h2><img  src="images/home/20.jpg" style="height: 430px; width: 1000px;" alt="about image"> -->
+        <p>Basketball, Chess, Carom, Lawn Tennis, Table Tennis are the ones in which the students have already displayed their skill and prowess and have brought home laurels after competing in various Inter DPS meets. Other games in which they are shaping out well are Badminton, Carom, Chess, Cricket, Swimming, Tae-Kwando, Skating on wooden skating rink and Mini Tennis for the kids.
+          <br>
+          
+          •	Table Tennis
+          <br>
+          •	Basket Ball
+          <br>
+          •	Lawn Tennis
+          <br>
+          •	Yoga
+          <br>
+          •	Swimming
+          <br>
+          •	Badminto
+          
+          
+          </p>
+       
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- end  -->
 
                   <div w3-include-html="footer.html"></div>
-                  <!-- <script>
-                     function addHTML() {
-                        var el, i, domEl, fileName, xmlHttp;
-                        
-                        /*Iterate all DOM*/
-                        el = document.getElementsByTagName("*");
-                        for (i = 0; i < el.length; i++) {
-                           domEl = el[i];
-                           
-                           /*find the element having w3-include-html attribute*/
-                           fileName = domEl.getAttribute("w3-include-html");
-                           if (fileName) {
-                              
-                              /*http request with attribute value as file name*/
-                              xmlHttp = new XMLHttpRequest();
-                              xmlHttp.onreadystatechange = function() {
-                                 if (this.readyState == 4) {
-                                    if (this.status == 200) {
-                                       domEl.innerHTML = this.responseText;
-                                    }
-                                    if (this.status == 404) {
-                                       domEl.innerHTML = "Page not found.";
-                                    }
-                                    
-                                    /* Remove the attribute and invoke the function again*/
-                                    domEl.removeAttribute("w3-include-html");
-                                    addHTML();
-                                 }
-                              }
-                              xmlHttp.open("GET", fileName, true);
-                              xmlHttp.send();
-                              
-                              /*function ends*/
-                              return;
-                           }
-                        }
-                     }
-                     addHTML();
-                  </script> -->
+                  
                  
                 <script src="js/main.js"></script>
                   <!-- jQuery -->
