@@ -1,0 +1,497 @@
+{
+  "staff":[
+  
+   {
+    "sNo": 1,
+    "teacher": "SATYA SHEKHAR RAI",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "Principal",
+    "email": "DPSVIDYAMANDIR@GMAIL.COM"
+   },
+   {
+    "sNo": 2,
+    "teacher": "RAJESH KUMAR",
+    "trade": "M.A",
+    "pQuali": "B.Ed. ",
+    "aLevel": "Vice-Principal",
+    "email": "rk6884219@gmail.com"
+   },
+   {
+    "sNo": 3,
+    "teacher": "RAVI SHANKAR DWIVEDI",
+    "trade": "MSC",
+    "pQuali": "B.Ed.",
+    "aLevel": "PGT",
+    "email": "ravishankardwivedi64@yahoo.com"
+   },
+   {
+    "sNo": 4,
+    "teacher": "PRATIBHA KUNJ",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT",
+    "email": "TEACHER@GMAIL.COM"
+   },
+   {
+    "sNo": 5,
+    "teacher": "RADHA RAMAN KUMAR MISHRA",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT",
+    "email": "raman.mishra.0257@gmail.com"
+   },
+   {
+    "sNo": 6,
+    "teacher": "RAMJEE KUMAR",
+    "trade": "MSC",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT",
+    "email": "ramjeekumar287@gmail.com"
+   },
+   {
+    "sNo": 7,
+    "teacher": "KUMAR RAJNISH",
+    "trade": "M.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT",
+    "email": "rajsnty1979@gmail.com"
+   },
+   {
+    "sNo": 8,
+    "teacher": "SHESHA NAND MISHRA",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/",
+    "email": "educationalpoint111@gmail.com"
+   },
+   {
+    "sNo": 9,
+    "teacher": "JAYA KUMARI",
+    "trade": "MSC",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT",
+    "email": "jaya7070298463@gmail.com"
+   },
+   {
+    "sNo": 10,
+    "teacher": "SANJEEV KUMAR",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT",
+    "email": "SANJEEV3182016@GMAIL.COM"
+   },
+   {
+    "sNo": 11,
+    "teacher": "SHAILESH KUMAR",
+    "trade": "BSC",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT",
+    "email": "shaileshcbse1475@gmai.com"
+   },
+   {
+    "sNo": 12,
+    "teacher": "PRIYANKA DEVI",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT",
+    "email": "priyankadevigaya1984@gmail.com"
+   },
+   {
+    "sNo": 13,
+    "teacher": "RAJIV RANJAN",
+    "trade": "B.Com",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/",
+    "email": "rajiv1103ranjan@gmail.com"
+   },
+   {
+    "sNo": 14,
+    "teacher": "SOURAV SAHGAL",
+    "trade": "IT Deploma",
+    "aLevel": "PRT"
+   },
+   {
+    "sNo": 15,
+    "teacher": "BALRAM PRASAD SINGH",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "BALRAM2016JSR@GMAIL.COM"
+   },
+   {
+    "sNo": 16,
+    "teacher": "DHIRENDRA KUMAR",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "dhirendrakumargaya187@gmail.com"
+   },
+   {
+    "sNo": 17,
+    "teacher": "MANISH KUMAR PRIYADARSHI",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "priyadarshiman005@gmail.com"
+   },
+   {
+    "sNo": 18,
+    "teacher": "APURWA SUMANT",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "rajatsingh9008@gmail.com"
+   },
+   {
+    "sNo": 19,
+    "teacher": "PAWAN PRAKASH",
+    "trade": "MCA",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "pawanprakashbodhgaya@gmail.com"
+   },
+   {
+    "sNo": 20,
+    "teacher": "ABHIJEET CHAKRABORTY",
+    "trade": "BSC",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "GBWS7050@GMAIL.COM"
+   },
+   {
+    "sNo": 21,
+    "teacher": "KRISHNA KUMAR SINHA",
+    "trade": "BCA",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "sinhakridiv@gmail.com"
+   },
+   {
+    "sNo": 22,
+    "teacher": "RAHUL KUMAR",
+    "trade": "MSC",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "JOINRAHULSIR@GMAIL.COM"
+   },
+   {
+    "sNo": 23,
+    "teacher": "GOPAL KUMAR BHARTI",
+    "trade": "B.A",
+    "pQuali": "B.El.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "bhartivishal03@gmail.com"
+   },
+   {
+    "sNo": 24,
+    "teacher": "SWETA KUMARI",
+    "trade": "MCA",
+    "pQuali": "None",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "swetakumaridos11@gmail.com"
+   },
+   {
+    "sNo": 25,
+    "teacher": "SOURAV RAJ",
+    "trade": "MSC",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "souravsinghlike@gmail.com"
+   },
+   {
+    "sNo": 26,
+    "teacher": "MANDAVI KUMARI",
+    "trade": "MA",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "pathak.mandavi@gmail.com"
+   },
+   {
+    "sNo": 27,
+    "teacher": "KAMINI KAUSHAL",
+    "trade": "MSC",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "kaushalkamini06@gmail.com"
+   },
+   {
+    "sNo": 28,
+    "teacher": "TISA SINGH",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "tisasingh2030@gmail.com"
+   },
+   {
+    "sNo": 29,
+    "teacher": "SHIKHA KUMARI",
+    "trade": "B.Com",
+    "pQuali": "B.El.Ed.",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "shikhapathak@gmail.com"
+   },
+   {
+    "sNo": 30,
+    "teacher": "AMIT PAN",
+    "trade": "MSC",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "amitpan2010@gmail.com"
+   },
+   {
+    "sNo": 31,
+    "teacher": "LIPSITA PAN",
+    "trade": "M.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "Lipsitapan30@gmail.com"
+   },
+   {
+    "sNo": 32,
+    "teacher": "SATYESH CHANDRA MISHRA",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "MISHRA.SATYESH@GMAIL.COM"
+   },
+   {
+    "sNo": 33,
+    "teacher": "RANJU KUMARI",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "ranjurajesh5592@gmail.com"
+   },
+   {
+    "sNo": 34,
+    "teacher": "SANTU KUMAR MISHRA",
+    "trade": "M.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "santukumarmishra816@gmail.com"
+   },
+   {
+    "sNo": 35,
+    "teacher": "AMIT PRATAP SAINGER",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "AMITSAINGER12281@GMAIL.COM"
+   },
+   {
+    "sNo": 36,
+    "teacher": "BINA KUMARI",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "dhananjaybina8@gmail.com"
+   },
+   {
+    "sNo": 37,
+    "teacher": "PADMINI KESHRI",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "pdmnkeshri@gmail.com"
+   },
+   {
+    "sNo": 38,
+    "teacher": "SANGEETA MEHRA",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "mehrasangeeta202@gmail.com"
+   },
+   {
+    "sNo": 39,
+    "teacher": "JEETENDRA SHARMA",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "jsjitendra63@gmail.com"
+   },
+   {
+    "sNo": 40,
+    "teacher": "BANDANA SHARMA",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "bandana19031983@gmail.com"
+   },
+   {
+    "sNo": 41,
+    "teacher": "SHUBHAM MAHIPAL",
+    "trade": " BPED",
+    "aLevel": "Physical Teacher",
+    "email": "mahipalsubham123@gmail.com"
+   },
+   {
+    "sNo": 42,
+    "teacher": "SHALINI KUMARI",
+    "trade": "B.A.",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "shalinisinghrajput973@gmail.com"
+   },
+   {
+    "sNo": 43,
+    "teacher": "AMIT RANJAN TRIPATHI",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "AMIT9471966966@GMAIL.COM"
+   },
+   {
+    "sNo": 44,
+    "teacher": "SHIVAM TIWARI",
+    "trade": "MA",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "tiwarishiv008@gmail.com"
+   },
+   {
+    "sNo": 45,
+    "teacher": "ARTI KUMARI",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "davashoknagar@gmail.com"
+   },
+   {
+    "sNo": 46,
+    "teacher": "CHANDRAMOHAN KUMAR",
+    "trade": "BSC",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "chandramohan.gaya@gmail.com"
+   },
+   {
+    "sNo": 47,
+    "teacher": "PIYUSH KUMAR",
+    "trade": "BSC",
+    "pQuali": "D.El.Ed",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "piyushk285@gmail.com"
+   },
+   {
+    "sNo": 48,
+    "teacher": "PURNIMA KUMARI",
+    "trade": "MSC",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "poornima78@gmail.com"
+   },
+   {
+    "sNo": 49,
+    "teacher": "UMESH KUMAR TIWARI",
+    "trade": "M.A",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "mahipalsubham123@gmail.com"
+   },
+   {
+    "sNo": 50,
+    "teacher": "SANEHA KUMARI",
+    "trade": "BCA"
+   },
+   {
+    "sNo": 51,
+    "teacher": "MONALISHA PARWATAIYAR",
+    "trade": "BSC",
+    "pQuali": "B.Ed. ",
+    "aLevel": "NTT\/Pre-Primary",
+    "email": "MONALISHAPARWATAIYAR@GMAIL.COM"
+   },
+   {
+    "sNo": 52,
+    "teacher": "KUMAR PRITAM",
+    "trade": "M.A",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "kumarpritam4118@gmail.com"
+   },
+   {
+    "sNo": 53,
+    "teacher": "KUMAR SHANU",
+    "trade": "M.A",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "kumarrshanu@gmail.com"
+   },
+   {
+    "sNo": 54,
+    "teacher": "NAVIN KUMAR",
+    "trade": "MCA",
+    "aLevel": "TGT\/Trained Graduate Teacher"
+   },
+   {
+    "sNo": 55,
+    "teacher": "ABHISHEK KUMAR",
+    "trade": "M.Tech",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "abhishekkumarmishra89@gmail.com"
+   },
+   {
+    "sNo": 56,
+    "teacher": "ASHUTOSH TIWARI",
+    "trade": "M.A",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "ASHUTOSH.RSV@GMAIL.COM"
+   },
+   {
+    "sNo": 57,
+    "teacher": "RAKESH KUMAR",
+    "trade": "M.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "RAKESH834062@GMAIL.COM"
+   },
+   {
+    "sNo": 58,
+    "teacher": "ROHIT KUMAR",
+    "trade": "BSC",
+    "pQuali": "B.Ed. ",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "rohitkrpost@gmail.com"
+   },
+   {
+    "sNo": 59,
+    "teacher": "SHASHI KANT KUMAR",
+    "trade": "MSC",
+    "pQuali": "B.Ed. ",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "SHASHIKANTANNANYA@GMAIL.COM"
+   },
+   {
+    "sNo": 60,
+    "teacher": "NEHA SINHA",
+    "trade": "M.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "nehasinha9504@gmail.com"
+   },
+   {
+    "sNo": 61,
+    "teacher": "SHEFALI KAINEDY",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "PRT\/Primary Teacher",
+    "email": "KAINEDYSHEFALI@GMAIL.COM"
+   },
+   {
+    "sNo": 63,
+    "teacher": "PALLAVI KUMARI",
+    "trade": "B.A",
+    "pQuali": "B.Ed.",
+    "aLevel": "TGT\/Trained Graduate Teacher",
+    "email": "pallavi.kumarinayara@gmail.com"
+   },
+   {
+    "sNo": 64,
+    "teacher": "DIMPAL ARYA",
+    "trade": "B.A",
+    "pQuali": "D.El.Ed",
+    "aLevel": "NTT\/Pre-Primary"
+   }
+  ]
+  }
