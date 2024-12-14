@@ -1,0 +1,18 @@
+[{
+	"id": "1",
+	"sortname": "AF",
+	"name": "Primary",
+	"phonecode": "93"
+}, {
+	"id": "2",
+	"sortname": "AL",
+	"name": "Secondary",
+	"phonecode": "355"
+}, {
+	"id": "3",
+	"sortname": "DZ",
+	"name": "Senior Secondary",
+	"phonecode": "213"
+}
+ ]
+
