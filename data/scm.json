@@ -1,0 +1,65 @@
+{
+    "scm": [
+        {
+            "sNo": "1",
+            "mName": "Shri Satyendra Prakash",
+           "desi": "President",
+           "occ": "Social worker"
+        },
+        {
+          "sNo": "2",
+          "mName": "Smt. Anita Prakash",
+         "desi": "Vice- President",
+         "occ": "Social worker"
+      },
+      {
+        "sNo": "3",
+        "mName": "Shri Ramendra Rai",
+       "desi": "Secretary",
+       "occ": "Social worker"
+    },
+    {
+      "sNo": "4",
+      "mName": "Shri Anil Thakur",
+     "desi": "Deputy Secretary",
+     "occ": "Social worker"
+  },
+  {
+    "sNo": "5",
+    "mName": "ShriSiya Sharan Prasad",
+   "desi": "Treasurer",
+   "occ": "Social worker"
+},
+{
+  "sNo": "6",
+  "mName": "Shri Prakash Chandra",
+ "desi": "Member",
+ "occ": "Social worker"
+},
+{
+  "sNo": "7",
+  "mName": "ShriSmrity Prakash",
+ "desi": "Member",
+ "occ": "Social worker"
+},
+{
+  "sNo": "8",
+  "mName": "Shri Shruti Prakash",
+ "desi": "Member",
+ "occ": "Social worker"
+},
+{
+  "sNo": "9",
+  "mName": "ShriSatya Shekhar Rai",
+ "desi": "Ex. OfficioMember",
+ "occ": "Principal (DPSVM)"
+},
+{
+  "sNo": "10",
+  "mName": "Shri Rajesh Kumar",
+ "desi": "Ex. Officio Member",
+ "occ": "Vice Principal (DPSVM)"
+}
+       
+    ]
+  }
