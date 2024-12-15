@@ -1,18 +1,65 @@
 [{
-	"id": "1",
-	"sortname": "AF",
-	"name": "Primary",
+	"class_id": "1",
+	"sortclass_name": "AF",
+	"class_name": "1",
 	"phonecode": "93"
 }, {
-	"id": "2",
-	"sortname": "AL",
-	"name": "Secondary",
+	"class_id": "2",
+	"sortclass_name": "AL",
+	"class_name": "2",
 	"phonecode": "355"
 }, {
-	"id": "3",
-	"sortname": "DZ",
-	"name": "Senior Secondary",
+	"class_id": "3",
+	"sortclass_name": "DZ",
+	"class_name": "3",
 	"phonecode": "213"
+}, {
+	"class_id": "4",
+	"sortclass_name": "AS",
+	"class_name": "4",
+	"phonecode": "1"
+}, {
+	"class_id": "5",
+	"sortclass_name": "AD",
+	"class_name": "5",
+	"phonecode": "376"
+}, {
+	"class_id": "6",
+	"sortclass_name": "AO",
+	"class_name": "6",
+	"phonecode": "244"
+},
+{
+	"class_id": "7",
+	"sortclass_name": "AI",
+	"class_name": "7",
+	"phonecode": "1"
+}, {
+	"class_id": "8",
+	"sortclass_name": "AQ",
+	"class_name": "8",
+	"phonecode": "672"
+}, {
+	"class_id": "9",
+	"sortclass_name": "AG",
+	"class_name": "9",
+	"phonecode": "1"
+}, {
+	"class_id": "10",
+	"sortclass_name": "AR",
+	"class_name": "10",
+	"phonecode": "54"
+}, {
+	"class_id": "11",
+	"sortclass_name": "AM",
+	"class_name": "11",
+	"phonecode": "374"
+}, {
+	"class_id": "12",
+	"sortclass_name": "AW",
+	"class_name": "12",
+	"phonecode": "297"
 }
+
  ]
 
