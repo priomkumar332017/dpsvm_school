@@ -33,6 +33,8 @@
       <link href="css/slider.css" rel="stylesheet">
       <link href="css/noticeboard.css" rel="stylesheet">
       <link rel="stylesheet" href="css/bgslide.css" />
+      <link rel="stylesheet" href="css/bgslide.css" />
+      <link rel="stylesheet" href="css/search.css" />
     
       
       <!--Favicon-->
@@ -77,34 +79,36 @@
 
 <section >
   <div class="container">
-    <div class="row">
-      <div class="col-12">
+    <div class="row" >
+      <div >
     
-        <label for="countries">Select Class:</label>
-        <select id="countries" class="select2" name="country">
-          <option value="">Select a class</option>
-        </select>
-       <br>
-        <label for="states">Select Admission no:</label>
-        <select id="states" class="select2" name="state">
-          <option value="">Select a admission no</option>
-        </select>
-    <br>
-        <label for="cities">Select Student Name:</label>
-        <select id="cities" class="select2" name="city">
-          <option value="">Select a name</option>
-        </select>
-    <br>
-        <button type="submit" onclick="showResult()" >Submit</button>
-    
-
-    <div>
-      <p id="result"></p>
-  </div>
+        <table>
+          <tr>
+           <th><label for="countries" class="label">Class:</label></th> 
+           <td> <select id="countries" class=" select" name="country">
+            <option value="">Select a class</option>
+          </select></td>
+       <th><label for="states" class="label">Admission no:</label></th>
+       <td><select id="states" class=" select" name="state">
+        <option value="">Select a admission no</option>
+      </select></td>
+       <th><label for="cities" class="label">Student Name:</label></th>
+       <td><select id="cities" class=" select" name="city">
+        <option value="" id="">Select a name</option>
+      </select> </td>
+      <th><select id="dlink"  name="downloadLink" hidden="true"></select></th> <td ><button type="submit" onclick="showResult()"  class="button b2" >Submit</button></td>
+          </tr>
+        </table>
+       
       </div>
       
     </div>
+    <div id="result">
+
+    </div>
   </div>
+
+
 </section>
 <!-- end  -->
 
