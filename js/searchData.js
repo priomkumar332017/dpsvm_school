@@ -27,7 +27,7 @@ $.getJSON("data/classdata.json", function(countries) {
           statesSelect.append(new Option(state.addm_no, state.addm_no));
         });
       }
-
+     // dlLinkSelect.empty();
       // Refresh Select2 elements
       statesSelect.trigger("change");
       citiesSelect.trigger("change");
@@ -41,7 +41,7 @@ $.getJSON("data/classdata.json", function(countries) {
     const dlLinkSelect = $("#dlink");
    // const dlDiv = $("#downloadLink");
    var downloadValue=null;
-   
+   dlLinkSelect.empty();
     citiesSelect.empty();
 
     $.getJSON("data/studentName.json", function(cities) {
