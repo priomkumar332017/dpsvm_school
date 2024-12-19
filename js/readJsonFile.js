@@ -33,24 +33,24 @@ $(function() {
 
 });
 
-$.getJSON('data/staff.json', function(data) {
-  $.each(data.staff, function(i, f) {
+// $.getJSON('data/staff.json', function(data) {
+//   $.each(data.staff, function(i, f) {
       
-       var staffdata=   "<tr> <td>"+f.sNo +"	 </td> <td class='text-center'>	"+ f.teacher+"	 </td> <td class='text-center'>	"+f.trade +"	 </td> <td class='text-center'>	"+ f.pQuali+"	 </td> <td class='text-center'>	"+ f.aLevel+"		 </td> <td class='text-center'>	"+f.email +"		</td>	</tr>";
-       $(staffdata).appendTo("#staffTable");
+//        var staffdata=   "<tr> <td>"+f.sNo +"	 </td> <td class='text-center'>	"+ f.teacher+"	 </td> <td class='text-center'>	"+f.trade +"	 </td> <td class='text-center'>	"+ f.pQuali+"	 </td> <td class='text-center'>	"+ f.aLevel+"		 </td> <td class='text-center'>	"+f.email +"		</td>	</tr>";
+//        $(staffdata).appendTo("#staffTable");
 
-});
-});
+// });
+// });
 
 
-$.getJSON('data/scm.json', function(data) {
-  $.each(data.scm, function(i, f) {
+// $.getJSON('data/scm.json', function(data) {
+//   $.each(data.scm, function(i, f) {
       
-       var scmdata=   "<tr> <td>"+f.sNo+" 		 </td> <td class='text-center'>	"+f.mName +"	 </td> <td class='text-center'>	"+ f.desi+"	 </td> <td class='text-center'>	"+f.occ +"	</td>  </tr>";
-       $(scmdata).appendTo("#scmId");
+//        var scmdata=   "<tr> <td>"+f.sNo+" 		 </td> <td class='text-center'>	"+f.mName +"	 </td> <td class='text-center'>	"+ f.desi+"	 </td> <td class='text-center'>	"+f.occ +"	</td>  </tr>";
+//        $(scmdata).appendTo("#scmId");
 
-});
-});
+// });
+// });
 
 
 
