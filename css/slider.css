@@ -3,14 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-.containersl {
+/* .containersl {
   margin: 0 auto;
   width: 95%;
   height: 400px;
   position: relative;
   overflow: hidden;
+} */
+ .containersl {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* adjust as needed */
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-.slides {
+
+/* .slides {
   display: flex;
   height: 100%;
 }
@@ -21,8 +31,31 @@
 .slide img {
   width: 100%;
   height: 150%;
+} */
+ .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
-.slide-controls {
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* .slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+ .slide img {
+  width: 100%;              /* fill the slide width */
+  height: 100%;            /* fixed height for all images */
+  object-fit: cover;        /* crop/scale to fit without distortion */
+  display: block;
+}
+
+
+/* .slide-controls {
   position: absolute;
   top: 50%;
   left: 0;
@@ -31,7 +64,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+} */
+ .slide-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
 }
+.slide-controls button {
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.slide-controls button:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+/* ------------------------------------------------------- */
 #next-btn,
 #prev-btn {
   cursor: pointer;
@@ -52,4 +106,20 @@
   transform: translateY(-50%);
   font-size: 60px;
   color: white;
+}
+
+
+.heading {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;   /* uniform spacing */
+  padding: 5px;
+  background-color: #f5f5f5; /* optional highlight */
+  border-bottom: 1px solid #ccc; /* keeps heading visually tied to table */
+}
+
+td {
+  vertical-align: top; /* ensures heading + content start at top of cell */
+  padding: 10px;
 }

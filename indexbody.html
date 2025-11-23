@@ -121,11 +121,49 @@
                               
                                       <!-- scroller bar for news end -->
   <!-- image slider and campus news start -->
-    <div > 
+
+  <div class="containersl">
+  <div class="slides">
+    <div class="slide"><img src="images/home/1.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/2.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/3.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/4.jpg" alt=""></div>    
+    <div class="slide"><img src="images/home/5.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/6.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/7.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/8.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/9.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/10.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/11.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/12.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/13.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/14.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/15.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/16.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/17.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/18.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/19.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/20.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/21.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/22.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/23.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/24.jpg" alt=""></div>
+    <div class="slide"><img src="images/home/25.jpg" alt=""></div>
+    <!-- add more slides as needed -->
+  </div>
+
+  <!-- Controls -->
+  <div class="slide-controls">
+    <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+    <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</div>
+
+    <!-- <div >   --- old one
               <table border="1px" >
                 <tbody>
                     <tr>
-            <!-- Slide image start -->
+             Slide image start 
             
                       <td width="40%" height="20px">
 
@@ -237,10 +275,10 @@
                               </div>
                             </div>
                           
-                            <!-- Slide image End -->
+                             Slide image End 
                   
                       </td>
-            <!-- Slide image End -->
+            Slide image End 
 
                     </tr>
 
@@ -248,11 +286,12 @@
 
               </table>
     </div>
+  </div> -->
      <!-- image slider and campus news end-->
 
    
     <!-- Notice Board start -->
-     <div>
+     <!-- <div>
       <table border="1" >
         <tbody>
           <tr class="event">
@@ -268,7 +307,7 @@
                         </div>
                   </td>
                   <td style="width: 33% !important;" >
-                    <p class="heading" style="margin-top: -105px;">Events</p>
+                    <p class="heading" style="margin-top: -77px;">Events</p>
                     <div>
                       <ul id="eventNews">
                         
@@ -291,7 +330,41 @@
          </tbody>
       </table>
 
-     </div>
+     </div> -->
+
+    
+  <table border="1" style="width:100%; border-collapse:collapse; table-layout:fixed;">
+    <tbody>
+      <tr class="event">
+        <!-- Campus News -->
+        <td style="width:33%;">
+          <p class="heading">Campus News</p>
+          <div>
+            <marquee direction="up" scrollamount="4" style="height:500px;" onmouseover="this.stop();" onmouseout="this.start();">
+              <ul id="campusNews"></ul>
+            </marquee>
+          </div>
+        </td>
+
+        <!-- Events -->
+        <td style="width:33%;">
+          <p class="heading">Events</p>
+          <div>
+            <ul id="eventNews"></ul>
+          </div>
+        </td>
+
+        <!-- Notice Boards -->
+        <td style="width:33%;">
+          <p class="heading">Notice Boards</p>
+          <div>
+            <ul id="nboard"></ul>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
     <!-- Notice Board End -->
 </section>
@@ -337,7 +410,8 @@
 </section>
 
 
-  
+ 
+
 
 
 </body>
