@@ -1,299 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>School Staff</title>
+{
+"staff":[
 
-<style>
-body{
-font-family:'Segoe UI',sans-serif;
-margin:0;
-background:#f5f7fb;
+{"sNo":1,"teacher":"SATYA SHEKHAR RAI","trade":"M.A","pQuali":"B.Ed.","aLevel":"Principal","email":"dpsvidyamandir@gmail.com","photo":"images/staff/1.jpg"},
+{"sNo":2,"teacher":"RAJESH KUMAR","trade":"M.A","pQuali":"B.Ed.","aLevel":"Vice-Principal","email":"rk6884219@gmail.com","photo":"images/staff/2.jpg"},
+{"sNo":3,"teacher":"RAVI SHANKAR DWIVEDI","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"PGT","email":"ravishankardwivedi64@yahoo.com","photo":"images/staff/3.jpg"},
+{"sNo":4,"teacher":"PRATIBHA KUNJ","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"teacher@gmail.com","photo":"images/staff/4.jpg"},
+{"sNo":5,"teacher":"RADHA RAMAN KUMAR MISHRA","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"raman.mishra.0257@gmail.com","photo":"images/staff/5.jpg"},
+{"sNo":6,"teacher":"RAMJEE KUMAR","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"ramjeekumar287@gmail.com","photo":"images/staff/6.jpg"},
+{"sNo":7,"teacher":"KUMAR RAJNISH","trade":"M.A","pQuali":"D.El.Ed","aLevel":"TGT","email":"rajsnty1979@gmail.com","photo":"images/staff/7.jpg"},
+{"sNo":8,"teacher":"SHESHA NAND MISHRA","trade":"B.A","pQuali":"B.Ed.","aLevel":"TGT","email":"educationalpoint111@gmail.com","photo":"images/staff/8.jpg"},
+{"sNo":9,"teacher":"JAYA KUMARI","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"jaya7070298463@gmail.com","photo":"images/staff/9.jpg"},
+{"sNo":10,"teacher":"SANJEEV KUMAR","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"sanjeev3182016@gmail.com","photo":"images/staff/10.jpg"},
+
+{"sNo":11,"teacher":"SHAILESH KUMAR","trade":"B.Sc","pQuali":"D.El.Ed","aLevel":"PRT","email":"shaileshcbse1475@gmail.com","photo":"images/staff/11.jpg"},
+{"sNo":12,"teacher":"PRIYANKA DEVI","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"priyankadevigaya1984@gmail.com","photo":"images/staff/12.jpg"},
+{"sNo":13,"teacher":"RAJIV RANJAN","trade":"B.Com","pQuali":"D.El.Ed","aLevel":"PRT","email":"rajiv1103ranjan@gmail.com","photo":"images/staff/13.jpg"},
+{"sNo":14,"teacher":"SOURAV SAHGAL","trade":"IT Diploma","pQuali":"None","aLevel":"PRT","email":"","photo":"images/staff/14.jpg"},
+{"sNo":15,"teacher":"BALRAM PRASAD SINGH","trade":"B.A","pQuali":"D.El.Ed","aLevel":"TGT","email":"balram2016jsr@gmail.com","photo":"images/staff/15.jpg"},
+{"sNo":16,"teacher":"DHIRENDRA KUMAR","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"dhirendrakumargaya187@gmail.com","photo":"images/staff/16.jpg"},
+{"sNo":17,"teacher":"MANISH KUMAR PRIYADARSHI","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"priyadarshiman005@gmail.com","photo":"images/staff/17.jpg"},
+{"sNo":18,"teacher":"APURWA SUMANT","trade":"B.A","pQuali":"B.Ed.","aLevel":"TGT","email":"rajatsingh9008@gmail.com","photo":"images/staff/18.jpg"},
+{"sNo":19,"teacher":"PAWAN PRAKASH","trade":"MCA","pQuali":"D.El.Ed","aLevel":"TGT","email":"pawanprakashbodhgaya@gmail.com","photo":"images/staff/19.jpg"},
+{"sNo":20,"teacher":"ABHIJEET CHAKRABORTY","trade":"B.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"gbws7050@gmail.com","photo":"images/staff/20.jpg"},
+
+{"sNo":21,"teacher":"KRISHNA KUMAR SINHA","trade":"BCA","pQuali":"B.Ed.","aLevel":"TGT","email":"sinhakridiv@gmail.com","photo":"images/staff/21.jpg"},
+{"sNo":22,"teacher":"RAHUL KUMAR","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"joinrahulsir@gmail.com","photo":"images/staff/22.jpg"},
+{"sNo":23,"teacher":"GOPAL KUMAR BHARTI","trade":"B.A","pQuali":"B.El.Ed.","aLevel":"TGT","email":"bhartivishal03@gmail.com","photo":"images/staff/23.jpg"},
+{"sNo":24,"teacher":"SWETA KUMARI","trade":"MCA","pQuali":"None","aLevel":"TGT","email":"swetakumaridos11@gmail.com","photo":"images/staff/24.jpg"},
+{"sNo":25,"teacher":"SOURAV RAJ","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"souravsinghlike@gmail.com","photo":"images/staff/25.jpg"},
+{"sNo":26,"teacher":"MANDAVI KUMARI","trade":"M.A","pQuali":"D.El.Ed","aLevel":"TGT","email":"pathak.mandavi@gmail.com","photo":"images/staff/26.jpg"},
+{"sNo":27,"teacher":"KAMINI KAUSHAL","trade":"M.Sc","pQuali":"D.El.Ed","aLevel":"NTT","email":"kaushalkamini06@gmail.com","photo":"images/staff/27.jpg"},
+{"sNo":28,"teacher":"TISA SINGH","trade":"B.A","pQuali":"D.El.Ed","aLevel":"NTT","email":"tisasingh2030@gmail.com","photo":"images/staff/28.jpg"},
+{"sNo":29,"teacher":"SHIKHA KUMARI","trade":"B.Com","pQuali":"B.El.Ed.","aLevel":"PRT","email":"shikhapathak@gmail.com","photo":"images/staff/29.jpg"},
+{"sNo":30,"teacher":"AMIT PAN","trade":"M.Sc","pQuali":"D.El.Ed","aLevel":"PRT","email":"amitpan2010@gmail.com","photo":"images/staff/30.jpg"},
+
+{"sNo":31,"teacher":"LIPSITA PAN","trade":"M.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"lipsitapan30@gmail.com","photo":"images/staff/31.jpg"},
+{"sNo":32,"teacher":"SATYESH CHANDRA MISHRA","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"mishra.satyesh@gmail.com","photo":"images/staff/32.jpg"},
+{"sNo":33,"teacher":"RANJU KUMARI","trade":"B.A","pQuali":"D.El.Ed","aLevel":"NTT","email":"ranjurajesh5592@gmail.com","photo":"images/staff/33.jpg"},
+{"sNo":34,"teacher":"SANTU KUMAR MISHRA","trade":"M.A","pQuali":"D.El.Ed","aLevel":"TGT","email":"santukumarmishra816@gmail.com","photo":"images/staff/34.jpg"},
+{"sNo":35,"teacher":"AMIT PRATAP SAINGER","trade":"B.A","pQuali":"B.Ed.","aLevel":"TGT","email":"amitsainger12281@gmail.com","photo":"images/staff/35.jpg"},
+{"sNo":36,"teacher":"BINA KUMARI","trade":"B.A","pQuali":"D.El.Ed","aLevel":"NTT","email":"dhananjaybina8@gmail.com","photo":"images/staff/36.jpg"},
+{"sNo":37,"teacher":"PADMINI KESHRI","trade":"B.A","pQuali":"D.El.Ed","aLevel":"NTT","email":"pdmnkeshri@gmail.com","photo":"images/staff/37.jpg"},
+{"sNo":38,"teacher":"SANGEETA MEHRA","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"mehrasangeeta202@gmail.com","photo":"images/staff/38.jpg"},
+{"sNo":39,"teacher":"JEETENDRA SHARMA","trade":"","pQuali":"","aLevel":"TGT","email":"jsjitendra63@gmail.com","photo":"images/staff/39.jpg"},
+{"sNo":40,"teacher":"BANDANA SHARMA","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"bandana19031983@gmail.com","photo":"images/staff/40.jpg"},
+
+{"sNo":41,"teacher":"SHUBHAM MAHIPAL","trade":"BPED","pQuali":"","aLevel":"Physical Teacher","email":"mahipalsubham123@gmail.com","photo":"images/staff/41.jpg"},
+{"sNo":42,"teacher":"SHALINI KUMARI","trade":"B.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"shalinisinghrajput973@gmail.com","photo":"images/staff/42.jpg"},
+{"sNo":43,"teacher":"AMIT RANJAN TRIPATHI","trade":"M.A","pQuali":"B.Ed.","aLevel":"PRT","email":"amit9471966966@gmail.com","photo":"images/staff/43.jpg"},
+{"sNo":44,"teacher":"SHIVAM TIWARI","trade":"M.A","pQuali":"","aLevel":"TGT","email":"tiwarishiv008@gmail.com","photo":"images/staff/44.jpg"},
+{"sNo":45,"teacher":"ARTI KUMARI","trade":"B.A","pQuali":"B.Ed.","aLevel":"NTT","email":"davashoknagar@gmail.com","photo":"images/staff/45.jpg"},
+{"sNo":46,"teacher":"CHANDRAMOHAN KUMAR","trade":"B.Sc","pQuali":"D.El.Ed","aLevel":"TGT","email":"chandramohan.gaya@gmail.com","photo":"images/staff/46.jpg"},
+{"sNo":47,"teacher":"PIYUSH KUMAR","trade":"B.Sc","pQuali":"D.El.Ed","aLevel":"TGT","email":"piyushk285@gmail.com","photo":"images/staff/47.jpg"},
+{"sNo":48,"teacher":"PURNIMA KUMARI","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"poornima78@gmail.com","photo":"images/staff/48.jpg"},
+{"sNo":49,"teacher":"UMESH KUMAR TIWARI","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"mahipalsubham123@gmail.com","photo":"images/staff/49.jpg"},
+{"sNo":50,"teacher":"SANEHA KUMARI","trade":"BCA","pQuali":"","aLevel":"PRT","email":"","photo":"images/staff/50.jpg"},
+
+{"sNo":51,"teacher":"MONALISHA PARWATAIYAR","trade":"B.Sc","pQuali":"B.Ed.","aLevel":"NTT","email":"monalishaparwataiyar@gmail.com","photo":"images/staff/51.jpg"},
+{"sNo":52,"teacher":"KUMAR PRITAM","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"kumarpritam4118@gmail.com","photo":"images/staff/52.jpg"},
+{"sNo":53,"teacher":"KUMAR SHANU","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"kumarrshanu@gmail.com","photo":"images/staff/53.jpg"},
+{"sNo":54,"teacher":"NAVIN KUMAR","trade":"MCA","pQuali":"","aLevel":"TGT","email":"","photo":"images/staff/54.jpg"},
+{"sNo":55,"teacher":"ABHISHEK KUMAR","trade":"M.Tech","pQuali":"B.Ed.","aLevel":"TGT","email":"abhishekkumarmishra89@gmail.com","photo":"images/staff/55.jpg"},
+{"sNo":56,"teacher":"ASHUTOSH TIWARI","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"ashutosh.rsv@gmail.com","photo":"images/staff/56.jpg"},
+{"sNo":57,"teacher":"RAKESH KUMAR","trade":"M.A","pQuali":"D.El.Ed","aLevel":"PRT","email":"rakesh834062@gmail.com","photo":"images/staff/57.jpg"},
+{"sNo":58,"teacher":"ROHIT KUMAR","trade":"B.Sc","pQuali":"B.Ed.","aLevel":"PRT","email":"rohitkrpost@gmail.com","photo":"images/staff/58.jpg"},
+{"sNo":59,"teacher":"SHASHI KANT KUMAR","trade":"M.Sc","pQuali":"B.Ed.","aLevel":"TGT","email":"shashikantannanya@gmail.com","photo":"images/staff/59.jpg"},
+{"sNo":60,"teacher":"NEHA SINHA","trade":"M.A","pQuali":"B.Ed.","aLevel":"TGT","email":"nehasinha9504@gmail.com","photo":"images/staff/60.jpg"},
+
+{"sNo":61,"teacher":"SHEFALI KAINEDY","trade":"B.A","pQuali":"B.Ed.","aLevel":"PRT","email":"kainedyshefali@gmail.com","photo":"images/staff/61.jpg"},
+{"sNo":62,"teacher":"VACANT","trade":"","pQuali":"","aLevel":"","email":"","photo":"images/staff/62.jpg"},
+{"sNo":63,"teacher":"PALLAVI KUMARI","trade":"B.A","pQuali":"B.Ed.","aLevel":"TGT","email":"pallavi.kumarinayara@gmail.com","photo":"images/staff/63.jpg"},
+{"sNo":64,"teacher":"DIMPAL ARYA","trade":"B.A","pQuali":"D.El.Ed","aLevel":"NTT","email":"","photo":"images/staff/64.jpg"}
+
+]
 }
-
-.header{
-background:linear-gradient(90deg,#ff8c00,#ff5e00);
-color:white;
-padding:30px;
-text-align:center;
-font-size:32px;
-font-weight:700;
-letter-spacing:1px;
-}
-
-.container{
-width:90%;
-margin:auto;
-margin-top:40px;
-}
-
-.search-box{
-text-align:center;
-margin-bottom:30px;
-}
-
-.search-box input{
-padding:12px 15px;
-width:300px;
-border-radius:25px;
-border:1px solid #ccc;
-font-size:16px;
-}
-
-.staff-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
-}
-
-.staff-card{
-background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 6px 18px rgba(0,0,0,0.1);
-transition:0.3s;
-text-align:center;
-position:relative;
-}
-
-.staff-card:hover{
-transform:translateY(-8px);
-box-shadow:0 10px 25px rgba(0,0,0,0.15);
-}
-
-.avatar{
-width:90px;
-height:90px;
-border-radius:50%;
-background:#ff8c00;
-color:white;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:28px;
-font-weight:bold;
-margin:auto;
-margin-bottom:15px;
-overflow:hidden;
-}
-
-.avatar img{
-width:100%;
-height:100%;
-object-fit:cover;
-}
-
-.upload-btn{
-margin-top:8px;
-font-size:12px;
-}
-
-.name{
-font-size:18px;
-font-weight:600;
-margin-bottom:6px;
-}
-
-.role{
-color:#ff6a00;
-font-weight:600;
-margin-bottom:10px;
-}
-
-.info{
-font-size:14px;
-color:#555;
-margin-bottom:5px;
-}
-
-.email{
-font-size:13px;
-color:#777;
-word-break:break-all;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="header">Our School Staff</div>
-
-<div class="container">
-
-<div class="search-box">
-<input type="text" id="search" placeholder="Search teacher name...">
-</div>
-
-<div class="staff-grid" id="staffGrid"></div>
-
-</div>
-
-<script>
-
-const staff=[
-{sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-  {sNo:1,teacher:"SATYA SHEKHAR RAI",trade:"M.A",pQuali:"B.Ed.",aLevel:"Principal",email:"DPSVIDYAMANDIR@GMAIL.COM"},
-{sNo:2,teacher:"RAJESH KUMAR",trade:"M.A",pQuali:"B.Ed.",aLevel:"Vice-Principal",email:"rk6884219@gmail.com"},
-{sNo:3,teacher:"RAVI SHANKAR DWIVEDI",trade:"MSC",pQuali:"B.Ed.",aLevel:"PGT",email:"ravishankardwivedi64@yahoo.com"},
-{sNo:4,teacher:"PRATIBHA KUNJ",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"teacher@gmail.com"},
-{sNo:5,teacher:"RADHA RAMAN KUMAR MISHRA",trade:"M.A",pQuali:"B.Ed.",aLevel:"TGT",email:"raman.mishra.0257@gmail.com"}
-];
-
-const grid=document.getElementById("staffGrid");
-
-function getSavedPhoto(id){
-return localStorage.getItem("staff_photo_"+id);
-}
-
-function savePhoto(id,data){
-localStorage.setItem("staff_photo_"+id,data);
-}
-
-function renderStaff(list){
-
-grid.innerHTML="";
-
-list.forEach(s=>{
-
-let initials=s.teacher.split(" ").map(n=>n[0]).join("").substring(0,2);
-
-let savedPhoto=getSavedPhoto(s.sNo);
-
-let avatarHTML=savedPhoto
-? `<img src="${savedPhoto}">`
-: initials;
-
-let card=`
-<div class="staff-card">
-
-<div class="avatar" id="avatar_${s.sNo}">${avatarHTML}</div>
-
-<div class="name">${s.teacher}</div>
-
-<div class="role">${s.aLevel}</div>
-
-<div class="info">Academic: ${s.trade || ""}</div>
-
-<div class="info">Professional: ${s.pQuali || ""}</div>
-
-<div class="email">${s.email || ""}</div>
-
-<input class="upload-btn" type="file" accept="image/*" onchange="uploadPhoto(event,${s.sNo})">
-
-</div>
-`;
-
-grid.innerHTML+=card;
-
-});
-
-}
-
-function uploadPhoto(event,id){
-
-const file=event.target.files[0];
-
-if(!file) return;
-
-const reader=new FileReader();
-
-reader.onload=function(e){
-
-savePhoto(id,e.target.result);
-
-renderStaff(staff);
-
-}
-
-reader.readAsDataURL(file);
-
-}
-
-renderStaff(staff);
-
-
-document.getElementById("search").addEventListener("keyup",function(){
-
-let value=this.value.toLowerCase();
-
-let filtered=staff.filter(t=>t.teacher.toLowerCase().includes(value));
-
-renderStaff(filtered);
-
-});
-
-</script>
-
-</body>
-</html>
