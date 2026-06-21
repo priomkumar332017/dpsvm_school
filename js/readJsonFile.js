@@ -1,59 +1,59 @@
-$(function() {
+$(document).ready(function () {
 
+    // Campus News
+    $.getJSON('data/cnews.json', function (data) {
 
-    var people = [];
- 
-    $.getJSON('data/cnews.json', function(data) {
-        $.each(data.news, function(i, f) {
-             var lirow=        "<li>" +"<i>" + f.date + "  : "+ "</i>" + f.msg +"<img src='images/new.gif'>" +"</li>";
-             $(lirow).appendTo("#campusNews");
- 
-      });
- 
+        data.news.reverse();
+
+        $.each(data.news, function (i, f) {
+
+            var newsCard =
+                '<li class="news-card">' +
+                '<div class="news-date">' + f.date + '</div>' +
+                '<div class="news-msg">' +
+                f.msg +
+                ' <span class="new-badge">NEW</span>' +
+                '</div>' +
+                '</li>';
+
+            $('#campusNews').append(newsCard);
+
+        });
+
     });
 
-    $.getJSON('data/eventnews.json', function(data) {
-      $.each(data.news, function(i, f) {
-           //var lirow=        "<li>" +"<i>" + f.date + "  : "+ "</i>" + f.msg +"<img src='images/new.gif'>" +"</li>";
-           var eventrow= "<li>" + "<span class=\"event-date\">" + f.date.split(' ')[0]  + "</span> " + f.msg + "</li>";
-           $(eventrow).appendTo("#eventNews");
+    // Event News
+    $.getJSON('data/eventnews.json', function (data) {
+
+        $.each(data.news, function (i, f) {
+
+            var eventCard =
+                '<li class="event-card">' +
+                '<span class="event-date">' + f.date + '</span>' +
+                '<span class="event-msg">' + f.msg + '</span>' +
+                '</li>';
+
+            $('#eventNews').append(eventCard);
+
+        });
 
     });
 
-  });
- 
+    // Notice Board
+    $.getJSON('data/nboard.json', function (data) {
 
-  $.getJSON('data/nboard.json', function(data) {
-    $.each(data.news, function(i, f) {
-         //var lirow=        "<li>" +"<img src='images/folder_image/right.png'>" + f.date + "  : "+ "</i>" + f.msg +"<img src='images/new.gif'>" +"</li>";
-         var nboard=   "<li>" +"<img src='images/folder_image/right.png'>"  + f.msg +"</li>";
-         $(nboard).appendTo("#nboard");
+        $.each(data.news, function (i, f) {
 
-  });
+            var noticeCard =
+                '<li class="notice-card">' +
+                '<i class="fas fa-bullhorn"></i> ' +
+                f.msg +
+                '</li>';
+
+            $('#nboard').append(noticeCard);
+
+        });
+
+    });
 
 });
-
-// $.getJSON('data/staff.json', function(data) {
-//   $.each(data.staff, function(i, f) {
-      
-//        var staffdata=   "<tr> <td>"+f.sNo +"	 </td> <td class='text-center'>	"+ f.teacher+"	 </td> <td class='text-center'>	"+f.trade +"	 </td> <td class='text-center'>	"+ f.pQuali+"	 </td> <td class='text-center'>	"+ f.aLevel+"		 </td> <td class='text-center'>	"+f.email +"		</td>	</tr>";
-//        $(staffdata).appendTo("#staffTable");
-
-// });
-// });
-
-
-// $.getJSON('data/scm.json', function(data) {
-//   $.each(data.scm, function(i, f) {
-      
-//        var scmdata=   "<tr> <td>"+f.sNo+" 		 </td> <td class='text-center'>	"+f.mName +"	 </td> <td class='text-center'>	"+ f.desi+"	 </td> <td class='text-center'>	"+f.occ +"	</td>  </tr>";
-//        $(scmdata).appendTo("#scmId");
-
-// });
-// });
-
-
-
-
-
- });
