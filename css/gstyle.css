@@ -9,25 +9,27 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #e0f7ff, #f5f7ff);
+  background: #000;
 }
 
-/* OUTER CONTAINER */
+/* HEADER SPACE (≈10cm gap) */
+header {
+  height: 10cm;   /* required space */
+  width: 100%;
+}
+
+/* FULL SCREEN SLIDER AREA */
 .gtcontainer {
-  width: 95%;
-  max-width: 1200px;
-  margin: 40px auto;
-  border-radius: 18px;
-  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 10cm); /* full screen minus header */
   position: relative;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-  border: 4px solid rgba(255,255,255,0.4);
+  overflow: hidden;
 }
 
-/* SLIDER AREA */
+/* SLIDER WRAPPER */
 .containersl {
   width: 100%;
-  height: 480px;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -42,46 +44,38 @@ body {
 /* EACH SLIDE */
 .slide {
   min-width: 100%;
+  height: 100%;
   position: relative;
 }
 
-/* IMAGE STYLE */
+/* IMAGE FULL COVER */
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  filter: brightness(0.9) contrast(1.1);
+  object-fit: cover;   /* IMPORTANT: full screen fit */
+  object-position: center;
 }
 
-/* 🌈 COLOR OVERLAY */
+/* DARK OVERLAY FOR BETTER TEXT */
 .slide::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 123, 255, 0.2),
-    rgba(255, 0, 150, 0.2)
-  );
+  background: rgba(0,0,0,0.35);
 }
 
-/* TEXT OVER IMAGE */
+/* TEXT ON IMAGE */
 .slide-content {
   position: absolute;
-  bottom: 50px;
-  left: 50px;
+  bottom: 60px;
+  left: 60px;
   color: #fff;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
-  text-shadow: 0 5px 15px rgba(0,0,0,0.5);
-  background: rgba(0,0,0,0.3);
-  padding: 10px 20px;
-  border-radius: 12px;
-  backdrop-filter: blur(6px);
+  text-shadow: 0 5px 15px rgba(0,0,0,0.6);
 }
 
-/* CONTROLS WRAPPER */
+/* CONTROLS */
 .slide-controls {
   position: absolute;
   top: 50%;
@@ -93,45 +87,40 @@ body {
   z-index: 10;
 }
 
-/* BUTTON STYLE */
+/* BUTTONS */
 #next-btn,
 #prev-btn {
-  background: linear-gradient(45deg, #ff416c, #ff4b2b);
-  border: none;
-  color: #fff;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid white;
+  color: white;
   font-size: 22px;
   padding: 12px 16px;
   cursor: pointer;
   border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
-}
-
-#prev-btn {
-  background: linear-gradient(45deg, #1e90ff, #00c6ff);
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
 }
 
 #next-btn:hover,
 #prev-btn:hover {
-  transform: scale(1.15);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+  background: white;
+  color: black;
+  transform: scale(1.1);
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE */
 @media (max-width: 768px) {
-  .containersl {
-    height: 300px;
-  }
-
   .slide-content {
-    font-size: 20px;
+    font-size: 22px;
     left: 20px;
     bottom: 20px;
   }
 
-  #next-btn,
-  #prev-btn {
-    font-size: 18px;
-    padding: 10px;
+  header {
+    height: 120px; /* mobile friendly header space */
+  }
+
+  .gtcontainer {
+    height: calc(100vh - 120px);
   }
 }
