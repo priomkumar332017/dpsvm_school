@@ -1,3 +1,31 @@
+/* RESET NAV LIST PROBLEM */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav-menu li a:hover {
+  background: #0ea5e9;
+  color: white;
+}
 /* =========================
    ROOT VARIABLES
 ========================= */
