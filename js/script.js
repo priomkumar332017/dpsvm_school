@@ -1,148 +1,87 @@
 (function ($) {
-  'use strict';
+    'use strict';
 
-  /* =========================
-     STICKY HEADER
-  ========================== */
-  const handleStickyMenu = () => {
-    const scrollTop = $(window).scrollTop();
-
-    if (scrollTop > 10) {
-      $('.top-header').addClass('hide');
-      $('.navigation').addClass('nav-bg');
-    } else {
-      $('.top-header').removeClass('hide');
-      $('.navigation').removeClass('nav-bg');
-    }
-  };
-
-  $(window).on('scroll', handleStickyMenu);
-
-
-  /* =========================
-     BACKGROUND IMAGE LOADER
-  ========================== */
-  const setBackgroundImages = () => {
-    $('[data-background]').each(function () {
-      const bg = $(this).data('background');
-      if (bg) {
-        $(this).css('background-image', `url(${bg})`);
-      }
+    // Sticky Menu
+    $(window).scroll(function () {
+        if ($('header').offset().top > 10) {
+            $('.top-header').addClass('hide');
+            $('.navigation').addClass('nav-bg');
+        } else {
+            $('.top-header').removeClass('hide');
+            $('.navigation').removeClass('nav-bg');
+        }
     });
-  };
 
+    // Background-images
+    $('[data-background]').each(function () {
+        $(this).css({
+            'background-image': 'url(' + $(this).data('background') + ')'
+        });
+    });
 
-  /* =========================
-     HERO SLIDER (SLICK)
-  ========================== */
-  const initHeroSlider = () => {
-    const $slider = $('.hero-slider');
-
-    if ($slider.length) {
-      $slider.slick({
+    //Hero Slider
+    $('.hero-slider').slick({
         autoplay: true,
-        autoplaySpeed: 7000,
-        pauseOnHover: false,
+        autoplaySpeed: 7500,
         pauseOnFocus: false,
+        pauseOnHover: false,
         infinite: true,
         arrows: true,
         fade: true,
-        dots: true,
-        prevArrow:
-          "<button type='button' class='prevArrow'><i class='ti-angle-left'></i></button>",
-        nextArrow:
-          "<button type='button' class='nextArrow'><i class='ti-angle-right'></i></button>"
-      });
+        prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>',
+        dots: true
+    });
+    $('.hero-slider').slickAnimation();
 
-      if ($.fn.slickAnimation) {
-        $slider.slickAnimation();
-      }
-    }
-  };
+    // venobox popup
+    $(document).ready(function(){
+        $('.venobox').venobox(); 
+    });
 
-
-  /* =========================
-     VENOBOX LIGHTBOX
-  ========================== */
-  const initVenobox = () => {
-    if ($.fn.venobox) {
-      $('.venobox').venobox();
-    }
-  };
-
-
-  /* =========================
-     MIXITUP FILTER
-  ========================== */
-  const initMixitup = () => {
-    const containerEl = document.querySelector('[data-ref~="mixitup-container"]');
-
-    if (containerEl && typeof mixitup !== 'undefined') {
-      mixitup(containerEl, {
-        selectors: {
-          target: '[data-ref~="mixitup-target"]'
-        }
-      });
-    }
-  };
-
-
-  /* =========================
-     COUNTER ANIMATION
-  ========================== */
-  let counterTriggered = false;
-
-  const runCounter = () => {
-    if (counterTriggered) return;
-
-    const $counters = $('.count');
-    if (!$counters.length) return;
-
-    const offsetTop = $counters.first().offset().top - window.innerHeight;
-
-    if ($(window).scrollTop() > offsetTop) {
-      counterTriggered = true;
-
-      $counters.each(function () {
-        const $this = $(this);
-        const countTo = parseInt($this.attr('data-count'), 10) || 0;
-
-        $({ countNum: 0 }).animate(
-          { countNum: countTo },
-          {
-            duration: 1200,
-            easing: 'swing',
-            step: function () {
-              $this.text(Math.floor(this.countNum));
-            },
-            complete: function () {
-              $this.text(this.countNum);
+    
+    // mixitup filter
+    var containerEl = document.querySelector('[data-ref~="mixitup-container"]');
+    var mixer;
+    if (containerEl) {
+        mixer = mixitup(containerEl, {
+            selectors: {
+                target: '[data-ref~="mixitup-target"]'
             }
-          }
-        );
-      });
+        });
     }
-  };
 
-  $(window).on('scroll', runCounter);
-
-
-  /* =========================
-     INIT ALL
-  ========================== */
-  $(document).ready(function () {
-    setBackgroundImages();
-    initHeroSlider();
-    initVenobox();
-    initMixitup();
-  });
+    //  Count Up
+    function counter() {
+        var oTop;
+        if ($('.count').length !== 0) {
+            oTop = $('.count').offset().top - window.innerHeight;
+        }
+        if ($(window).scrollTop() > oTop) {
+            $('.count').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                    countNum: countTo
+                }, {
+                    duration: 1000,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+                    }
+                });
+            });
+        }
+    }
+    $(window).on('scroll', function () {
+        counter();
+    });
 
 })(jQuery);
 
-
-/* =========================
-   FEATHER ICONS
-========================== */
-if (typeof feather !== 'undefined') {
-  feather.replace();
-}
+feather.replace();
