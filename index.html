@@ -1,182 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>School Website</title>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Saraswati Vidya Mandir, Gayajee</title>
+    
+      <!-- mobile responsive meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
+      <!-- * Plugins Needed for the Project * -->
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+      <!-- slick slider -->
+      <link rel="stylesheet" href="plugins/slick/slick.css">
+      <!-- themefy-icon -->
+      <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+      <!-- animation css -->
+      <link rel="stylesheet" href="plugins/animate/animate.css">
+      <!-- aos -->
+      <link rel="stylesheet" href="plugins/aos/aos.css">
+      <!-- venobox popup -->
+      <link rel="stylesheet" href="plugins/venobox/venobox.css">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+      <!-- Main Stylesheet -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- sliding image -->
+      <link  rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+      <link href="css/slider.css" rel="stylesheet">
+      <link href="css/noticeboard.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/bgslide.css" />
+    
+      
+      <!--Favicon-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="images/logo/svm_logo.png" type="image/x-icon">
+      <!---------------------menu------------------------>
+     <script type="text/javascript">
+            $(function() {
+              if ($.browser.msie && $.browser.version.substr(0,1)<7)
+              {
+             $('li').has('ul').mouseover(function(){
+                $(this).children('ul').show();
+                }).mouseout(function(){
+                $(this).children('ul').hide();
+                })
+              }
+            }); 
+    
+                
+        </script>
 
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Icons -->
-  <script src="https://unpkg.com/feather-icons"></script>
-
-  <!-- Slick Slider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-  <!-- Your CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-
+       <!-----Menu style seting ------------->
+    
+    </head> 
 <body>
+                  
+                  <div w3-include-html="header.html"></div>
+                  <div w3-include-html="indexbody.html"></div>
 
-<!-- ================= TOP HEADER ================= -->
-<div class="top-header text-center">
-  📢 Welcome to Our School Website | Admission Open 2026
-</div>
+                  <div w3-include-html="footer.html"></div>
+                  <!-- <script>
+                     function addHTML() {
+                        var el, i, domEl, fileName, xmlHttp;
+                        
+                        /Iterate all DOM/
+                        el = document.getElementsByTagName("*");
+                        for (i = 0; i < el.length; i++) {
+                           domEl = el[i];
+                           
+                           /find the element having w3-include-html attribute/
+                           fileName = domEl.getAttribute("w3-include-html");
+                           if (fileName) {
+                              
+                              /http request with attribute value as file name/
+                              xmlHttp = new XMLHttpRequest();
+                              xmlHttp.onreadystatechange = function() {
+                                 if (this.readyState == 4) {
+                                    if (this.status == 200) {
+                                       domEl.innerHTML = this.responseText;
+                                    }
+                                    if (this.status == 404) {
+                                       domEl.innerHTML = "Page not found.";
+                                    }
+                                    
+                                    /* Remove the attribute and invoke the function again*/
+                                    domEl.removeAttribute("w3-include-html");
+                                    addHTML();
+                                 }
+                              }
+                              xmlHttp.open("GET", fileName, true);
+                              xmlHttp.send();
+                              
+                              /function ends/
+                              return;
+                           }
+                        }
+                     }
+                     addHTML();
+                  </script> -->
+                 
+                <script src="js/main.js"></script>
+                  <!-- jQuery -->
+               <script src="plugins/jQuery/jquery.min.js"></script>
+               <!-- Bootstrap JS -->
+               <script src="plugins/bootstrap/bootstrap.min.js"></script>
+               <!-- slick slider -->
+               <script src="plugins/slick/slick.min.js"></script>
+               <!-- aos -->
+               <script src="plugins/aos/aos.js"></script>
+               <!-- venobox popup -->
+               <script src="plugins/venobox/venobox.min.js"></script>
+               <!-- mixitup filter -->
+               <script src="plugins/mixitup/mixitup.min.js"></script>
+               <!-- google map -->
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+               <script src="plugins/google-map/gmap.js"></script>
+               <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+               <!-- Main Script -->
+               <script src="js/script.js"></script>
 
-<!-- ================= NAVIGATION ================= -->
-<header class="navigation">
-  <div class="container">
-    <div class="nav-wrapper">
-
-      <div class="logo">
-        <h3>🏫 DPSVM</h3>
-      </div>
-
-      <ul class="nav-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#notice">Notice</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-    </div>
-  </div>
-</header>
-
-<!-- ================= HERO SLIDER ================= -->
-<section class="hero-slider">
-
-  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1')">
-    <div class="content">
-      <h1>Welcome to Our School</h1>
-      <p>Providing Quality Education for Bright Future</p>
-      <a href="#" class="btn btn-primary">Admission Open</a>
-    </div>
-  </div>
-
-  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1588072432836-e10032774350')">
-    <div class="content">
-      <h1>Smart Learning Environment</h1>
-      <p>Modern classrooms & digital education system</p>
-      <a href="#" class="btn btn-primary">Explore More</a>
-    </div>
-  </div>
-
-</section>
-
-<!-- ================= ABOUT SECTION ================= -->
-<section id="about" class="py-5">
-  <div class="container">
-    <div class="section-title">
-      <h2>About Our School</h2>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card">
-          <h4>Our Vision</h4>
-          <p>We aim to provide high-quality education with discipline, values, and modern technology.</p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="card">
-          <h4>Our Mission</h4>
-          <p>To build confident, responsible and successful students for a better future.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= COUNTER SECTION ================= -->
-<section class="counter-section">
-  <div class="container">
-    <div class="row text-center">
-
-      <div class="col-md-4">
-        <div class="count" data-count="1200">0</div>
-        <p>Students</p>
-      </div>
-
-      <div class="col-md-4">
-        <div class="count" data-count="75">0</div>
-        <p>Teachers</p>
-      </div>
-
-      <div class="col-md-4">
-        <div class="count" data-count="25">0</div>
-        <p>Years Experience</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ================= NOTICE BOARD ================= -->
-<section id="notice" class="py-5">
-  <div class="container">
-    <div class="section-title">
-      <h2>Latest Notices</h2>
-    </div>
-
-    <div class="notice-board">
-      <ul>
-        <li>📌 Admission for 2026-27 is now open</li>
-        <li>📌 Annual sports day on 15 July</li>
-        <li>📌 Parents meeting on every Saturday</li>
-        <li>📌 Holiday on Independence Day</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ================= GALLERY ================= -->
-<section id="gallery" class="py-5 bg-light">
-  <div class="container">
-    <div class="section-title">
-      <h2>Our Gallery</h2>
-    </div>
-
-    <div class="row g-3 gallery">
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?school" /></div>
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?classroom" /></div>
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?students" /></div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= FOOTER ================= -->
-<footer class="footer text-center">
-  <div class="container">
-    <h5>Our School</h5>
-    <p>Best Education for Better Future</p>
-
-    <p>
-      <i data-feather="phone"></i> +91 98765 43210 |
-      <i data-feather="mail"></i> info@school.com
-    </p>
-
-    <p>© 2026 All Rights Reserved</p>
-  </div>
-</footer>
-
-<!-- ================= SCRIPTS ================= -->
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<script src="script.js"></script>
-
-<script>
-  feather.replace();
-</script>
-
+               <!-- slider java script file -->
+               <script src="js/slider.js"></script>
+               <script src="js/bgslide.js"></script>
+               <script src="js/readJsonFile.js"></script>
+               <script src="js/visitorcunt.js"></script>
 </body>
 </html>
