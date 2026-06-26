@@ -112,6 +112,14 @@ body {
    HERO SECTION
 ========================= */
 .hero-slider {
+  margin-top: 0;
+}
+
+.slide {
+  position: relative;
+  min-height: 90vh;
+}.
+hero-slider {
   position: relative;
 }
 
