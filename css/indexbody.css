@@ -128,20 +128,20 @@
 .news-content{
 
     flex:1;
-    background:#f8f9fa;
+    background:#c62828;   /* Red Background */
     padding:12px 15px;
     font-size:17px;
-    color:#333;
+    color:#fff;           /* White Text */
     font-weight:600;
 
 }
 
 .news-content marquee{
 
+    color:#fff;
     line-height:30px;
 
 }
-
 .news-content img{
 
     vertical-align:middle;
