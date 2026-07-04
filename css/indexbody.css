@@ -79,3 +79,105 @@
 }
 
 }
+/*====================================
+ Modern News Bar
+=====================================*/
+
+.news-wrapper{
+
+    width:100%;
+    margin:15px 0;
+
+}
+
+.news-row{
+
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    margin-bottom:12px;
+    border-radius:10px;
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+}
+
+.news-label{
+
+    width:220px;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
+    text-align:center;
+    padding:15px;
+
+}
+
+.thought-label{
+
+    background:linear-gradient(135deg,#ff9800,#ff5722);
+
+}
+
+.latest-label{
+
+    background:linear-gradient(135deg,#1565C0,#0D47A1);
+
+}
+
+.news-content{
+
+    flex:1;
+    background:#f8f9fa;
+    padding:12px 15px;
+    font-size:17px;
+    color:#333;
+    font-weight:600;
+
+}
+
+.news-content marquee{
+
+    line-height:30px;
+
+}
+
+.news-content img{
+
+    vertical-align:middle;
+
+}
+
+.news-row:hover{
+
+    transform:translateY(-2px);
+    transition:.3s;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+}
+
+@media(max-width:768px){
+
+.news-row{
+
+    flex-direction:column;
+
+}
+
+.news-label{
+
+    width:100%;
+    padding:10px;
+    font-size:16px;
+
+}
+
+.news-content{
+
+    width:100%;
+    font-size:15px;
+
+}
+
+}
