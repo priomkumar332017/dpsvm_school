@@ -1255,3 +1255,15 @@ a:active {
 	margin:0px 0px 0px 0px;
 	width:100%;
 	}
+.school-banner{
+
+    width:100%;
+
+    height:auto;
+
+    max-height:180px;
+
+    object-fit:cover;
+
+    display:block;
+}
