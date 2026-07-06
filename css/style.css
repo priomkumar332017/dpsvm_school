@@ -1267,3 +1267,24 @@ a:active {
 
     display:block;
 }
+
+#schoolSlider{
+
+margin:0;
+
+padding:0;
+
+}
+
+#schoolSlider img
+{
+
+height:380px;
+
+width:100%;
+
+object-fit:cover;
+
+border-radius:0;
+
+}
