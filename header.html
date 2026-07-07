@@ -1,470 +1,276 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <title>Saraswati Vidya Mandir, Gaya</title>
 
-<body> <!-- header --> <header class="fixed-top header">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- jQuery (LOAD FIRST) -->
+  <script src="../plugins/jQuery/jquery.min.js"></script>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="../plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="../plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="../plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="../plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="../plugins/venobox/venobox.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+  crossorigin="anonymous"
+  />
+  <!-- Main Stylesheet -->
+  <link href="../css/style.css" rel="stylesheet">
+  <!-- sliding image -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <link href="../css/slider.css" rel="stylesheet">
+  <link href="../css/noticeboard.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bgslide.css" />
 
-<!-- Top Header -->
-<div class="top-header bg-white">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-----Menu script with fixed jQuery order ------------->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Handle hover for dropdown menus
+      $('li').has('ul').on('mouseover', function(){
+        $(this).children('ul').stop(true, true).slideDown(200);
+      }).on('mouseout', function(){
+        $(this).children('ul').stop(true, true).slideUp(200);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
     <div class="container">
-        <div class="row no-gutters">
-
-            <!-- Left Side -->
-            <div class="col-lg-4 text-center text-lg-left">
-
-                <a class="text-color mr-3" href="tel:+917070995122">
-                    <strong>CALL</strong> +91 707 099 5122
-                </a>
-
-                <ul class="list-inline d-inline mb-0">
-
-                    <li class="list-inline-item mx-0">
-                        <a class="d-inline-block p-2 text-color"
-                           href="https://www.youtube.com/@dpsvidyamandir"
-                           target="_blank">
-                            <i class="ti-youtube"></i>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item mx-0">
-                        <a class="d-inline-block p-2 text-color"
-                           href="https://www.facebook.com/profile.php?id=61587115271753"
-                           target="_blank">
-                            <i class="ti-facebook"></i>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item mx-0">
-                        <a class="d-inline-block p-2 text-color"
-                           href="#">
-                            <i class="ti-twitter-alt"></i>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item mx-0">
-                        <a class="d-inline-block p-2 text-color"
-                           href="#">
-                            <i class="ti-linkedin"></i>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item mx-0">
-                        <a class="d-inline-block p-2 text-color"
-                           href="https://www.instagram.com/dpsvmgayajee/"
-                           target="_blank">
-                            <i class="ti-instagram"></i>
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <!-- Right Side -->
-            <div class="col-lg-8 text-center text-lg-right">
-
-                <ul class="list-inline mb-0">
-
-                    <li class="list-inline-item">
-                        <a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-                           href="#"
-                           data-toggle="modal"
-                           data-target="#loginModal">
-                            Login
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-                           href="#"
-                           data-toggle="modal"
-                           data-target="#signupModal">
-                            Register
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="tel:+917070995122"><strong>CALL</strong> +91 707 099 5122</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.youtube.com/@dpsvidyamandir" target="_blank"><i class="ti-youtube"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/profile.php?id=61587115271753" target="_blank"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/dpsvmgayajee/" target="_blank"><i class="ti-instagram"></i></a></li>
+          </ul>
         </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">LOGIN</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">REGISTER</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-</div>
-
-<!-- Navbar -->
-<div class="navigation w-100">
-    <div class="container">
-
-        <!-- Navbar Content Here -->
-
-    </div>
-</div>
-</header> <!-- navbar --> <div class="navigation w-100"> <div >
-
-  <a class=".navigation-image w-100" href="index.html">
-    <div class="navigation w-100">
-        <img src="images/banner/school banner.jpg" style="height: 300px; width: 100%!important;" alt="logo">  
-   
-    </div>
-    </a>
- <div id="schoolSlider" class="carousel slide" data-ride="carousel">
-<div class="carousel-inner">
-
-<div class="carousel-item active"> <img src="images/slide banner/1.jpg" class="d-block w-100" alt=""> </div>
-
-<div class="carousel-item"> <img src="images/slide banner/2.jpg" class="d-block w-100" alt=""> </div>
-
-<div class="carousel-item"> <img src="images/slide banner/3.JPG" class="d-block w-100" alt=""> </div>
-
-<div class="carousel-item"> <img src="images/slide banner/6.jpg" class="d-block w-100" alt=""> </div>
-
-</div>
-
-<a class="carousel-control-prev" href="#schoolSlider" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a>
-
-<a class="carousel-control-next" href="#schoolSlider" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
-
-</div> <!-- <nav class="navbar navbar-expand-lg navbar-light p-0"> <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" style="flex:0;" id="navigation"> <ul class="navbar-nav ml-auto text-center"> <li class="nav-item active"> <a class="nav-link" href="index.html">Home</a> </li> <li class="nav-item @@about"> <a class="nav-link" href="about.html">About</a> </li> <li class="nav-item @@courses"> <a class="nav-link" href="#">COURSES</a>
-
-  </li>
-  <li class="nav-item @@events">
-    <a class="nav-link" href="#">EVENTS</a>
-  </li>
-  <li class="nav-item @@blog">
-    <a class="nav-link" href="#">BLOG</a>
-  </li>
-  <li class="nav-item dropdown view">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false">
-      Certificates
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="#">Teacher</a>
-      <a class="dropdown-item" href="#">Teacher Single</a>
-      <a class="dropdown-item" href="#">Notice</a>
-      <a class="dropdown-item" href="#">Marks sheets</a>
-      <a class="dropdown-item" href="#">Research</a>
-      <a class="dropdown-item" href="#">Scholarship</a>
-      <a class="dropdown-item" href="#">School Leaving Certificate</a>
-      <a class="dropdown-item" href="#">Course Details</a>
-      <a class="dropdown-item" href="#">Event Details</a>
-      <a class="dropdown-item" href="#">Blog Details</a>
-    </div>
-  </li>
-  <li class="nav-item @@contact">
-    <a class="nav-link" href="contact.html">CONTACT</a>
-  </li>
-</ul>
-</div>
-
-  </nav> -->
-  <div class="menu" style="background-color: rgb(232, 119, 28);">
-    <ul id="menu">
-    <div style="width:1%;height:30px; float:left;"></div>
-         <div id="schoolSlider" class="carousel slide" data-ride="carousel">
-
-
-
-
-
-
-<div class="carousel-inner">
-
-
-
-
-
-
-
-<div class="carousel-item active">
-
-
-
-<img src="images/slide banner/1.jpg" class="d-block w-100" alt="">
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="carousel-item">
-
-
-
-<img src="images/slide banner/2.jpg" class="d-block w-100" alt="">
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="carousel-item">
-
-
-
-<img src="images/slide banner/3.JPG" class="d-block w-100" alt="">
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="carousel-item">
-
-
-
-<img src="images/slide banner/6.jpg" class="d-block w-100" alt="">
-
-
-
-</div>
-
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="#">About us</a>
+  </div>
+  
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div>
+      <a class="navigation-image w-100" href="index.html">
+        <img src="7.jpg" style="height: 210px; width: 100%;" alt="logo">
+      </a>
+      
+      <div class="menu" style="background-color: rgb(232, 119, 28);">
+        <ul id="menu">
+          <div style="width:5%; height:30px; float:left;"></div>
+          <li><a href="https://www.mygov.in" target="_blank"><img src="mygov.png" height="100%" width="130%" alt="MyGov"></a></li>
+          <li><a href="index.php">HOME</a></li>
+          
+          <li><a href="#">About us</a>
             <ul>
-                <li><a href="about.html">Introduction</a></li>
-                <li><a href="affiliation.html">Affiliation</a></li>
-                <li><a href="smc.html">SMC</a></li>
-                <li><a href="pta.html">PTA</a></li>
-                <li><a href="principal'smsg.html">Principal's Message</a></li>
-                <li><a href="staff.html">Acharya</a>
-                    <!-- <ul>
-                        <li><a href="#">PGT</a></li>
-                        <li><a href="#">TGT</a></li>
-                        <li><a href="#">PRT</a></li>
-                        <li><a href="#">Non-Teaching</a></li>
-                    </ul> -->
-                </li>
-                <li><a href="studentstrenth.html">Students Strength</a></li>				
-                <li><a href="infrastructure.html">Infrastructure</a></li>
-                <li><a href="objective.html">Objectives</a></li>
-                <li><a href="guidelines.html">Guidelines</a></li>
-                <li><a href="#">Mandatory Disclosure >></a>
-                
-                 <ul>
-                        <li><a href="trustcertificate.html">TrustCertificate</a></li>
-                        <li><a href="noc.html">NOC</a></li>
-                        <li><a href="recognition.html">Recognition</a></li>
-                        <li><a href="buildingsafty.html">BuildingSafty</a></li>
-                        <li><a href="firesafty.html">FireSafty</a></li>
-                        <li><a href="deo.html">DEO</a></li>
-                        <li><a href="water.html">Water</a></li>
-                        <li><a href="result.html">LAST THREE-YEAR RESULT</a></li>
-                        
-                    </ul>
-                
-                </li>
-            </ul>
-        </li>
-        <li><a href="#">ADMISSION</a>
-            <ul>
-                <!--<li><a href="admission.php">Admission Class XI</a></li>-->
-                <li><a href="admissionprocidure.html">Admission Procedure</a></li>
-                <li><a href="ruleRegulation.html">Rules & Regulations</a></li>
-                <li><a href="#">Admission Form</a></li>
-                <li><a href="feestructure.html">Fee Structure</a></li>
-                <li><a href="#">School Schedule</a></li>
-                <li><a href="uniform.html">Uniform</a></li>
-                <li><a href="#">Book List</a></li>
-            </ul>
-        </li>
-        <li><a href="#">ACADEMIC</a>
-          <ul>
-            <li><a href="annualacadmiccalendra.html">Academic Calender</a></li>
-            <li><a href="https://drive.google.com/file/d/1oQVYsfiubXzySlGeK_PI82otiXBXexAA/view">Syllabus</a></li>
-            <li><a href="https://drive.google.com/file/d/1DTJuFYUCGAIStet3wkFowW4bq1Q2Ellm/view">Assignment</a></li>
-            <li><a href="https://drive.google.com/drive/folders/1QCqxjfPpCIeiZq1jLrO05vWQE5_n-p_K">Home Work</a>
-              <li><a href="https://docs.google.com/document/d/1IOkyHX9W_PwZGEOrC3UD7a-LTPcPXGpjeluf_cL8Gho/edit?tab=t.0">Date Sheet of Exam.</a></li>                 
-            <li><a href="https://docs.google.com/document/d/1IOkyHX9W_PwZGEOrC3UD7a-LTPcPXGpjeluf_cL8Gho/edit?tab=t.0">Examination</a>
-            <li><a href="#">Result</a>
-              <ul>
-                <li><a href="https://drive.google.com/drive/folders/1WhO2yg-BjSdSU6Xzy0w8ZiNPByVvoLth">Senior Secondary</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1WhO2yg-BjSdSU6Xzy0w8ZiNPByVvoLth">Secondary</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1WhO2yg-BjSdSU6Xzy0w8ZiNPByVvoLth">Primary</a></li>
-            </ul>
-              <li><a href="https://drive.google.com/file/d/1AZabPdr9O7ITagEAmAj2rNnhAMQS37aJ/view">Co-Curricular Activities</a>
-            </li>
-            <li><a href="resultandtc.html">1 To 9 SLC</a>
-              <ul>
-                <li><a href="#">Senior Secondary</a></li>
-                <li><a href="#">Secondary</a></li>
-                <li><a href="#">Primary</a></li>
-            </ul>
-            </li>
-        </ul>
-        <li><a href="#">FACILITIES</a>
-            <ul>
-                <li><a href="#">Laboratories >></a>
-                    <ul>
-                        <li><a href="https://drive.google.com/drive/folders/1hfcyCOEOHQ1wjHttMIORrcJ53knteIlX">Physics Lab.</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1F4JGaMdG3xOYJD9B8uNt1PJ3RVBIXBYx">Chemistry Lab.</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1-0npWk1JFCrGLicDKJc8mf8TTb6qNBid">Biology Lab.</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/12Br540t4SybLGBeW8RdzTKnrvJ2H8ifx">Computer Lab.</a></li>
-                    </ul>
-                </li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="sport.html">Games & Sports</a></li>
-                <li><a href="https://drive.google.com/drive/folders/1VC_nbJRGvAcErfN50twiMq2nMUHJlDoX">Music & Dance</a></li>
-                <li><a href="https://drive.google.com/drive/folders/16SnnKhp689gNSijV0kQVA3v-vZVV9Z8G">Art & Craft</a></li>
-                <li><a href="https://drive.google.com/drive/folders/18-6_ECUhzUqD4h2TkCo71MGGRtw6kL0Q">Smart Class</a></li>
-                <li><a href="transport.html">Transportation</a></li>
-            </ul>
-        </li>
-        <li><a href="https://www.vidyabharatialumni.org/find-alumni">Alumni</a></li>
-        <!--<li><a href="Contact_Us.php">Contact Us</a></li>  -->
-        <li><a href="#">Verification</a>
-          <ul>
-            <li><a href="#">Transfer Certificate >></a>
+              <li><a href="Introduction.php">Introduction</a></li>
+              <li><a href="Affiliation.php">Affiliation</a></li>
+              <li><a href="Management_Committee.php">Managing Committee</a></li>
+              <li><a href="principal'smsg.html">Principal's Message</a></li>
+              <li><a href="Our_Staff.php">Our Staff</a>
                 <ul>
-                    <li><a href="https://drive.google.com/drive/folders/1d7Csa_GOLS277kx3QE-u_uffFICGHQTB">10th </a></li>
-                    <li><a href="https://drive.google.com/drive/folders/1d7Csa_GOLS277kx3QE-u_uffFICGHQTB">12th</a></li>
-                    
+                  <li><a href="PGT.php">PGT</a></li>
+                  <li><a href="TGT.php">TGT</a></li>
+                  <li><a href="PRT.php">PRT</a></li>
+                  <li><a href="Non-Teaching.php">Non-Teaching</a></li>
                 </ul>
-            </li>
-
-            <li><a href="#">Migration Certificate >></a>
-              <ul>
-                  <li><a href="https://drive.google.com/drive/folders/1e4aQPdPQLnEw0MNZCZgOMnaRUNWv0B7t">10th </a></li>
-                  <li><a href="https://drive.google.com/drive/folders/1n3m1Hlg9gzaidXfjCgom8ezQOXXxrOej">12th</a></li>
-                  
-              </ul>
-          </li>
-
-            <li><a href="#">Marksheet >></a>
-              <ul>
-                <li><a href="https://drive.google.com/drive/folders/1pnjDJ5n3iStl-v-jGoMRDBc3dNk-Sg_p">10th </a></li>
-                <li><a href="https://drive.google.com/drive/folders/1ylnuINMhy8Xi8wQM14LI_vKzh5i-kkn-">12th</a></li>
-              </ul>
-          </li>
-            
-          <li><a href="#">Character Certificate >></a>
-            <ul>
-              <li><a href="https://drive.google.com/drive/folders/1jCDKeia-WWazn2zft-vkLe5onuMtPJUO">10th </a></li>
-              <li><a href="https://drive.google.com/drive/folders/1Ld5iDgJj_UphEuzMj4th2JrWt3aOscAg">12th</a></li>
+              </li>
+              <li><a href="Students_Strength.php">Students Strength</a></li>				
+              <li><a href="Infrastructure.php">Infrastructure</a></li>
+              <li><a href="Objectives.php">Objectives</a></li>
+              <li><a href="Guidelines.php">Guidelines</a></li>
+              <li><a href="Disclosure.php">Mandatory Disclosure</a></li>
             </ul>
-        </li>
-        
-        </ul>
-      </li>
-
-        <li><a href="#">Vecancy</a>
+          </li>
+          
+          <li><a href="#">ADMISSION</a>
             <ul>
-              <!-- <li><a href="vecancy.html">Vecancy</a></li> -->
-              
+              <li><a href="Admission_Procedure.php">Admission Procedure</a></li>
+              <li><a href="Admission_Form.php">Admission Form</a></li>
+              <li><a href="Rules_Regulations.php">Rules & Regulations</a></li>
+              <li><a href="Fee_Structure.php">Fee Structure</a></li>
+              <li><a href="School_Schedule.php">School Schedule</a></li>
+              <li><a href="uniform.php">Uniform</a></li>
+              <li><a href="Book_list.php">Book List</a></li>
             </ul>
-        </li>
-        <li><a href="galary.html">Gallary</a></li>
-<!-- -------------------- -->
-
-<li> <a href="#">Website</a> <ul>
-
-    <li>
-        <a target="_blank" href="https://bsspatna.in/home.aspx">
-            Bihar Shiksha Samiti
-        </a>
-    </li>
-
-    <li>
-        <a target="_blank" href="https://gyandeep-rte.bihar.gov.in/">
-            GyanDeep RTE
-        </a>
-    </li>
-
-    <li>
-        <a target="_blank" href="https://www.cbse.gov.in/cbsenew/question-paper.html">
-            Previous Board Paper
-        </a>
-    </li>
-
-    <li>
-        <a target="_blank" href="https://eshikshakosh.bihar.gov.in/login">
-            E-Shikshakosh
-        </a>
-    </li>
-
-    <li>
-        <a target="_blank" href="https://udiseplus.gov.in/#/en/home">
-            UDISE+
-        </a>
-    </li>
-
-    <li>
-        <a target="_blank" href="https://www.cbse.gov.in/">
-            CBSE &raquo;
-        </a>
-
-        <ul>
-
-            <li>
-                <a target="_blank" href="https://www.cbse.gov.in/cbsenew/cbse.html">
-                    CBSE Main Website
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https://parikshasangam.cbse.gov.in/ps/">
-                    Pariksha Sangam
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https://results.digilocker.gov.in/">
-                    CBSE Result
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https://saras.cbse.gov.in/SARAS">
-                    SARAS
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https://cbseacademic.nic.in/index.html">
-                    Academic Website
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" href="https://cbseit.in/cbse/2022/ET/frmListing">
-                    Prashikshan Triveni
-                </a>
-            </li>
-
+          </li>
+          
+          <li><a href="#">ACADEMIC</a>
+            <ul>
+              <li><a href="Examination.php">Examination</a></li>
+              <li><a href="syllabus.php">Syllabus</a></li>
+              <li><a href="Assignment.php">Assignment</a></li>
+              <li><a href="Home_Work.php">Home Work</a></li>
+              <li><a href="Co-curricular_Activities.php">Co-Curricular Activities</a></li>
+              <li><a href="Examination_Date_sheet.php">Date Sheet of Exam.</a></li>
+              <li><a href="Result.php">Result</a>
+                <ul>
+                  <li><a href="Senior_Secondary.php">Senior Secondary</a></li>
+                  <li><a href="Secondary.php">Secondary</a></li>
+                  <li><a href="Primary.php">Primary</a></li>
+                </ul>
+              </li>
+              <li><a href="Academic_Calender.php">Academic Calender</a></li>			
+              <li><a href="Transfer_Certificate.php">Transfer Certificate</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="#">FACILITIES</a>
+            <ul>
+              <li><a href="Laboratories.php">Laboratories</a>
+                <ul>
+                  <li><a href="Physics_Lab.php">Physics Lab</a></li>
+                  <li><a href="Chemistry_Lab.php">Chemistry Lab</a></li>
+                  <li><a href="Biology_Lab.php">Biology Lab</a></li>
+                  <li><a href="Computer_Lab.php">Computer Lab</a></li>
+                </ul>
+              </li>
+              <li><a href="Library.php">Library</a></li>
+              <li><a href="Games_Sports.php">Games & Sports</a></li>
+              <li><a href="Music_Dance.php">Music & Dance</a></li>
+              <li><a href="Art_Craft.php">Art & Craft</a></li>
+              <li><a href="Smart_Class.php">Smart Class</a></li>
+              <li><a href="Transportation.php">Transportation</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="Alumni.php">Alumni</a></li>
+          <li><a href="verify.php">Verification</a></li>
+    
+          <li><a href="#">SAINIK SCHOOL</a>
+            <ul>
+              <li><a href="https://drive.google.com/drive/folders/1LdJgXO4L9JM_PMyoCkwSgAU6gXeAToJz?usp=share_link" target="_blank">Sainik School Activities</a></li>
+              <li><a href="Disclosure.php">Disclosure-CBSE</a></li>
+              <li><a href="/sainik_school/mandatory_disc.php">Disclosure-SSS</a></li>
+              <li><a href="/sainik_school/pocso.php">POCSO ICC</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="admin_login.php">Login</a></li>
         </ul>
-    </li>
+      </div>
+    </div>
+  </div>
 
-</ul>
-</li><!-- -------------------- -->
+</header>
+<!-- /header -->
 
-        <li><a href="contact.html">Contact</a></li>
-        <!-- <li><a href="admin_login.php">Login</a></li> -->
-        <!--<div style="height:30px; float:left; color:#666; background-color:#036;">
-            <div align="right"> </div>
-        </div>-->
-    </ul>
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content rounded-0 border-0 p-4">
+      <div class="modal-header border-0">
+        <h3>Register</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login">
+          <form action="#" class="row">
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+            </div>
+            <div class="col-12">
+              <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">SIGN UP</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content rounded-0 border-0 p-4">
+      <div class="modal-header border-0">
+        <h3>Login</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#" class="row">
+          <div class="col-12">
+            <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+          </div>
+          <div class="col-12">
+            <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">LOGIN</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
 
-</header> <!-- /header --> <!-- Modal --> <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content rounded-0 border-0 p-4"> <div class="modal-header border-0"> <h3>Register</h3> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div> <div class="modal-body"> <div class="login"> <form action="#" class="row"> <div class="col-12"> <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone"> </div> <div class="col-12"> <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name"> </div> <div class="col-12"> <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email"> </div> <div class="col-12"> <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password"> </div> <div class="col-12"> <button type="submit" class="btn btn-primary">SIGN UP</button> </div> </form> </div> </div> </div> </div> </div> <!-- Modal --> <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog modal-lg" role="document"> <div class="modal-content rounded-0 border-0 p-4"> <div class="modal-header border-0"> <h3>Login</h3> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div> <div class="modal-body"> <form action="#" class="row"> <div class="col-12"> <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone"> </div> <div class="col-12"> <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name"> </div> <div class="col-12"> <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password"> </div> <div class="col-12"> <button type="submit" class="btn btn-primary">LOGIN</button> </div> </form> </div> </div> </div> </div>
+<!-- Bootstrap JS -->
+<script src="../plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="../plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="../plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="../plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="../plugins/mixitup/mixitup.min.js"></script>
+<!-- Main Script -->
+<script src="../js/script.js"></script>
 
-</body> </html>
-
-
-Close
+</body>
+</html>
