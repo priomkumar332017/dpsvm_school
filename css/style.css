@@ -345,6 +345,309 @@ padding:10px !important;
 
 }
 
+} 
+/* ==========================================================
+   PART-3 : HERO SECTION + SLIDER + NOTICE BOARD
+   ========================================================== */
+
+/* ---------- HERO SECTION ---------- */
+
+.hero-section{
+    position:relative;
+    padding:20px 0 40px;
+    background:#f4f7fb;
+}
+
+.hero-section::before{
+    display:none;
+}
+
+/* ---------- SCHOOL BANNER ---------- */
+
+.school-banner,
+.navigation img{
+
+    width:100%;
+    height:auto;
+    max-height:320px;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+}
+
+/* ---------- THOUGHT & NEWS ---------- */
+
+.news-bar{
+
+    display:flex;
+    width:100%;
+    margin-bottom:10px;
+
+}
+
+.news-title{
+
+    width:180px;
+    background:#0d47a1;
+    color:#fff;
+    font-weight:600;
+    text-align:center;
+    padding:8px;
+
+}
+
+.news-scroll{
+
+    flex:1;
+    background:#ffffff;
+    border:1px solid #ddd;
+    padding:8px;
+    color:#222;
+
+}
+
+.news-scroll marquee{
+
+    font-weight:600;
+
+}
+
+/* ---------- IMAGE SLIDER ---------- */
+
+.containersl{
+
+    width:100%;
+    background:#ffffff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+    margin-top:15px;
+    margin-bottom:25px;
+
+}
+
+.slides{
+
+    display:flex;
+
+}
+
+.slide{
+
+    min-width:100%;
+    transition:.5s;
+
+}
+
+.slide img{
+
+    width:100%;
+    height:500px;
+    object-fit:cover;
+
+}
+
+/* ---------- SLIDER BUTTON ---------- */
+
+.slide-controls{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+
+}
+
+.slide-controls button{
+
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#0d47a1;
+    color:#fff;
+    transition:.3s;
+
+}
+
+.slide-controls button:hover{
+
+    background:#ff9800;
+    transform:scale(1.08);
+
+}
+
+/* ---------- NOTICE BOARD ---------- */
+
+.event{
+
+    background:#ffffff;
+
+}
+
+.event td{
+
+    vertical-align:top;
+    padding:10px;
+
+}
+
+.heading{
+
+    background:#0d47a1;
+    color:#fff;
+    padding:12px;
+    font-size:20px;
+    text-align:center;
+    border-radius:8px;
+    margin-bottom:12px;
+
+}
+
+/* ---------- LIST ---------- */
+
+#campusNews,
+#eventNews,
+#nboard{
+
+    padding:10px;
+
+}
+
+#campusNews li,
+#eventNews li,
+#nboard li{
+
+    background:#f8f9fa;
+    margin-bottom:12px;
+    padding:12px;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+    transition:.3s;
+
+}
+
+#campusNews li:hover,
+#eventNews li:hover,
+#nboard li:hover{
+
+    background:#eef6ff;
+    transform:translateX(5px);
+
+}
+
+/* ---------- TABLE ---------- */
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+table td{
+
+    border:1px solid #e5e5e5;
+
+}
+
+/* ---------- MARQUEE ---------- */
+
+marquee{
+
+    padding:6px 0;
+
+}
+
+/* ---------- ABOUT SECTION ---------- */
+
+.section{
+
+    background:#ffffff;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.section p{
+
+    text-align:justify;
+
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:992px){
+
+.slide img{
+
+height:350px;
+
+}
+
+.heading{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.event,
+.event tbody,
+.event tr,
+.event td{
+
+display:block;
+width:100%;
+
+}
+
+.slide img{
+
+height:250px;
+
+}
+
+.news-bar{
+
+display:block;
+
+}
+
+.news-title{
+
+width:100%;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.slide img{
+
+height:200px;
+
+}
+
+.heading{
+
+font-size:17px;
+
+}
+
+.news-scroll{
+
+font-size:14px;
+
+}
+
 }
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
