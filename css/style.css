@@ -7,6 +7,85 @@ VERSION:	Versoin Number
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
+/* ===========================================================
+   MODERN GLOBAL SETTINGS
+   Daya Prakash Saraswati Vidya Mandir
+   =========================================================== */
+
+:root{
+  --primary:#0d47a1;
+  --secondary:#ff9800;
+  --success:#2e7d32;
+  --danger:#c62828;
+  --light:#f8f9fa;
+  --dark:#1b1b1b;
+  --white:#ffffff;
+
+  --shadow:0 8px 25px rgba(0,0,0,.12);
+  --radius:12px;
+  --transition:.35s ease;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#f4f7fb;
+  color:#444;
+  overflow-x:hidden;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+.container{
+  width:100%;
+}
+
+.section{
+  padding:60px 0;
+}
+
+.section-title{
+  font-size:34px;
+  font-weight:700;
+  color:var(--primary);
+  margin-bottom:25px;
+}
+
+p{
+  line-height:1.8;
+  font-size:16px;
+}
+
+a{
+  transition:all .3s;
+}
+
+.card{
+  border:none;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+
+.shadow{
+  box-shadow:var(--shadow);
+}
+
+.rounded{
+  border-radius:var(--radius);
+}
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
