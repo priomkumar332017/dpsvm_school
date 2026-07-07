@@ -86,6 +86,266 @@ a{
 .rounded{
   border-radius:var(--radius);
 }
+/* ===========================================================
+   PART-2 : MODERN HEADER & NAVIGATION
+   =========================================================== */
+
+/* ---------- HEADER ---------- */
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+    background:#ffffff;
+    box-shadow:0 2px 20px rgba(0,0,0,.08);
+    transition:.35s ease;
+}
+
+/* Header after scroll */
+
+.header.scrolled{
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+/* ---------- TOP HEADER ---------- */
+
+.top-header{
+    background:#0d47a1;
+    color:#fff;
+    font-size:14px;
+    padding:8px 0;
+}
+
+.top-header a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.top-header a:hover{
+    color:#ffeb3b;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+.navigation{
+    background:#ffffff;
+    width:100%;
+}
+
+.navigation .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* ---------- LOGO ---------- */
+
+.logo img{
+    height:70px;
+    width:auto;
+    transition:.3s;
+}
+
+.logo img:hover{
+    transform:scale(1.03);
+}
+
+/* ---------- SCHOOL BANNER ---------- */
+
+.navigation-image img{
+    width:100%;
+    height:auto;
+    max-height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar{
+    padding:0;
+}
+
+.navbar-nav{
+    display:flex;
+    align-items:center;
+    gap:2px;
+    margin-left:auto;
+    background:none;
+}
+
+.nav-item{
+    position:relative;
+}
+
+.nav-link{
+    color:#1b1b1b !important;
+    font-weight:600;
+    padding:18px 16px !important;
+    transition:.3s;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+/* Hover */
+
+.nav-link:hover{
+    color:#0d47a1 !important;
+}
+
+/* Active */
+
+.nav-item.active .nav-link{
+    color:#0d47a1 !important;
+}
+
+/* underline */
+
+.nav-item::after{
+    content:'';
+    position:absolute;
+    left:10%;
+    bottom:8px;
+    width:0%;
+    height:3px;
+    background:#ff9800;
+    transition:.3s;
+    border-radius:10px;
+}
+
+.nav-item:hover::after,
+.nav-item.active::after{
+    width:80%;
+}
+
+/* ---------- DROPDOWN ---------- */
+
+.dropdown-menu{
+    border:none;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    padding:10px 0;
+    margin-top:0;
+}
+
+.dropdown-item{
+    padding:10px 18px;
+    transition:.25s;
+}
+
+.dropdown-item:hover{
+    background:#0d47a1;
+    color:#fff;
+}
+
+/* Desktop Hover */
+
+@media(min-width:992px){
+
+.dropdown:hover>.dropdown-menu{
+display:block;
+}
+
+}
+
+/* ---------- STICKY ---------- */
+
+.sticky{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#fff;
+    animation:sticky .4s;
+}
+
+@keyframes sticky{
+
+from{
+transform:translateY(-100%);
+}
+
+to{
+transform:translateY(0);
+}
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:991px){
+
+.header{
+position:relative;
+}
+
+.navigation .container{
+display:block;
+}
+
+.navbar-nav{
+
+display:block;
+background:#0d47a1;
+padding:10px;
+margin-top:10px;
+
+}
+
+.nav-link{
+
+color:#fff !important;
+padding:12px !important;
+
+}
+
+.nav-item::after{
+
+display:none;
+
+}
+
+.navigation-image img{
+
+max-height:180px;
+
+}
+
+.logo img{
+
+height:55px;
+
+}
+
+}
+
+/* ---------- EXTRA SMALL ---------- */
+
+@media(max-width:576px){
+
+.top-header{
+
+font-size:12px;
+
+}
+
+.navigation-image img{
+
+max-height:140px;
+
+}
+
+.nav-link{
+
+font-size:13px;
+
+padding:10px !important;
+
+}
+
+}
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
