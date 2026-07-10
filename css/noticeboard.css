@@ -1,86 +1,40 @@
-/* CAMPUS NEWS */
-
-.news-card {
-    list-style: none;
-    background: #ffffff;
-    margin: 15px 0;
-    padding: 15px;
-    border-left: 6px solid #ff9800;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
-    transition: all 0.3s ease;
+.event {
+  width: 100%;
+  margin-right: 1%;
+  float: left;
+  background-color: #f5bb86;
+  padding: 10px;
+  
+}
+ .event .heading {
+  /* border-bottom: 1px solid #46b7c1;
+  padding: 5px;
+  color: #fff; */
+  background: #24e9d8f5;
+  text-align: center;
 }
 
-.news-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.20);
+.event ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  list-style: none;
 }
-
-.news-date {
-    display: inline-block;
-    background: #e53935;
-    color: #fff;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.news-msg {
-    font-size: 15px;
-    line-height: 1.8;
-    color: #333;
-}
-
-.new-badge {
-    background: #ff0000;
-    color: #fff;
-    padding: 3px 8px;
-    border-radius: 20px;
-    font-size: 11px;
-    margin-left: 8px;
-    animation: blink 1s infinite;
-}
-
-@keyframes blink {
-    50% {
-        opacity: 0.5;
-    }
-}
-
-/* EVENT NEWS */
-
-.event-card {
-    list-style: none;
-    background: #f8f9fa;
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 10px;
-    border-left: 5px solid #0d6efd;
-}
-
 .event-date {
-    background: #0d6efd;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-weight: bold;
+  background: #46b7c1;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 12px;
+  margin-right: 10px;
 }
 
-/* NOTICE BOARD */
-
-.notice-card {
-    list-style: none;
-    background: #fff3cd;
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 10px;
-    border-left: 5px solid #ffc107;
-    color: #333;
-    transition: 0.3s;
-}
-
-.notice-card:hover {
-    background: #ffe69c;
+.headingevent {
+  /* border-bottom: 1px solid #46b7c1;
+  padding: 5px;
+  color: #fff; */
+  background: #46b7c1;
+  text-align: center;
+  
 }
